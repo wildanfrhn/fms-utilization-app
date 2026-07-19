@@ -76,7 +76,7 @@ st.set_page_config(
 )
 
 st.title("FMS Utilization Converter")
-st.caption("Pilih area, upload Data FMS, pilih bulan output, pilih hari libur, lalu download satu file Excel berisi beberapa sheet output.")
+st.caption("by Ahmad Wildan Farihin")
 
 
 # ============================================================
