@@ -159,7 +159,7 @@ def get_status_column(deployment):
     """
     dep = normalize_text(deployment)
 
-    if dep in ["SLA", "Adhoc/Charter", "Intercity", "Shuttle"]:
+    if dep in ["SLA", "Port to Door", " "Adhoc/Charter", "Intercity", "Shuttle"]:
         return "Utilized"
     elif dep == "Unit Standby":
         return "Standby"
